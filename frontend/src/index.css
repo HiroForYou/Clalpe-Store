@@ -1,0 +1,157 @@
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  color: #817d7d !important;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 0.5rem 0;
+  padding-top: 1rem;
+}
+
+h3 {
+  padding: 1rem;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* Carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item-active {
+  display: flex;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h4 {
+  color: #fff;
+}
+
+.carousel img {
+  display: flex;
+  height: 250px;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 40px auto;
+}
+
+.carousel a {
+  margin: 0 auto;
+}
+
+.my-carousel {
+  background-color: #ff5da3 !important;
+}
+
+.cat-nav {
+  padding: 10px 10px !important;
+}
+
+.cat-nav-items {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.cat-item {
+  color: #817d7d !important;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.cat-item:hover {
+  color: #f9bbac !important;
+}
+
+.nav-item a {
+  color: #54e8fc;
+}
+
+.search-button {
+  color: #f9bbac !important;
+  border-color: #f9bbac !important;
+}
+
+.search-button:hover {
+  color: whitesmoke !important;
+  border-color: whitesmoke !important;
+  background-color: #f9bbac !important;
+}
+
+.link-color {
+  color: #f58c72;
+}
+
+a:hover {
+  color: #f9bbac !important;
+}
+
+.my-form {
+  padding: 0.5rem 0.25rem !important;
+}
+
+.btn-primary {
+  background-color: #f9bbac !important;
+}
+.btn-primary:hover {
+  background-color: #f3a590 !important;
+}
+
+.navbar-brand {
+  color: #f3a590 !important;
+}
+
+.navbar-text {
+  padding: 0px !important;
+}
+
+span.page-link {
+  background-color: #f3a590 !important;
+}
+
+.reg-login {
+  margin-top: 1rem;
+}
+
+.reg-login a {
+  color: #f58c72;
+}
+.alert a {
+  color: #f58c72 !important;
+}
+
+.method-warning {
+  color: red;
+}
+
+.aboutus-pic {
+  width: 100%;
+  height: auto;
+  border: 5px solid #f58c72;
+}
+.about-p {
+  margin-top: 15px;
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 1.2rem !important;
+  }
+  h2 {
+    font-size: 1.2rem !important;
+  }
+  .cat-nav {
+    padding: 10px 10px !important;
+  }
+}
